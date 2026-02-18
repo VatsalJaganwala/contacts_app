@@ -143,7 +143,7 @@ class ContactProfileView extends GetView<ContactProfileController> {
                     children: [
                       Text(
                         contact.name,
-                        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
+                        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold,),
                       ),
                       _buildInfoBlock(
                         context,
